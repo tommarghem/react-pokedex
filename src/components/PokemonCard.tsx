@@ -9,8 +9,9 @@ const pokemonList = [
     },
 ];
 
-function PokemonCard() {
-    const pokemon = pokemonList[0];
+function PokemonCard({ pokemon }) {
+
+
     return (
 
 
